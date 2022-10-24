@@ -7,7 +7,7 @@ include "./cabecalho.php";?>
     <div class="card-body">
         <div class="row">
             <div class="col-2">
-                <button class="btn btn-success">Novo Usuário</button>
+                <a href="./usuariosCreat.php"class="btn btn-success">Novo Usuário</a>
             </div>
             <div class="col-2">
                 <select name="opcao" class="form-control">
@@ -20,7 +20,7 @@ include "./cabecalho.php";?>
                 <input type="text" class="form-control" name="textoPesquisado" />
             </div>
             <div class="col-2">
-                <button class="btn btn-primary">Pesquisar</button>
+                <a  class="btn btn-primary">Pesquisar</a>
             </div>
         </div>
     </div>
